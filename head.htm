@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+<?php
+print <<<EOT
+-->
+<head>
+<title>$titleDB[title]                           powered by www.php168.com</title>
+<link rel="stylesheet" type="text/css" href="$webdb[www_url]/images/hzdx/style.css">
+<link rel="stylesheet" type="text/css" href="$webdb[www_url]/images/$STYLE/style.css">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta name="keywords" content="$titleDB[keywords]">
+<meta name="description" content="$titleDB[description]"> 
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+<!--//导航菜单
+function guide_link(fid){
+	if(fid==0){
+	window.location.href="$webdb[www_url]/";
+	}else{
+	window.location.href='$webdb[www_url]/list.php?fid='+fid;
+	}
+}
+function killErr(){
+	return true;
+}
+window.onerror=killErr;
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript">
+<!--//处理大分类一行两个小分类
+function autoTable(div){
+	fs=document.getElementById(div).getElementsByTagName("TABLE");
+	for(var i=0;i<fs.length;i++){
+		fs[i].style.width='49.5%';
+		if(i%2==1){
+			if (document.all) {
+				fs[i].style.styleFloat="right";
+			}else{
+				fs[i].style.cssFloat="right;";
+			}
+		}else{
+			if (document.all) {
+				fs[i].style.styleFloat="left";
+			}else{
+				fs[i].style.cssFloat="left;";
+			}
+		}
+	}
+}
+//-->
+</SCRIPT>
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0">
+<SCRIPT LANGUAGE="JavaScript">
+<!--//目的是为了做风格方便
+document.write('<div class="wrap">');
+//-->
+</SCRIPT>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" id="header">
+  <tr>
+    <td><table width="960" border="0" cellpadding="0" cellspacing="0" bgcolor="5F5F5F">
+      <tr>
+        <td height="15" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="948" height="15" align="right"><span class="eng"><a href="english/index.htm" tppabs="$webdb[www_url]/english/"></a></span></td>
+              <td width="12" height="15" align="right"></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="60" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="15" height="60" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="18" height="60"></td>
+                  </tr>
+              </table></td>
+              <td width="322" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="322" height="60"><img src="images/hzdx/logo.gif" tppabs="$webdb[www_url]/images/hzdx/logo.gif" width="322" height="60" /></td>
+                  </tr>
+              </table></td>
+              <td width="192" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="198" height="60"></td>
+                  </tr>
+              </table></td>
+              <td width="5" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="5" height="60"><img src="images/hzdx/topmenu_left.gif" tppabs="$webdb[www_url]/images/hzdx/topmenu_left.gif" width="5" height="60" /></td>
+                  </tr>
+              </table></td>
+              <td width="414" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td width="416" height="60" bgcolor="868686" class="topmenu" align="center"><table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" id="guide">
+                      <tr>
+                        <td><!--
+EOT;
+$detail=explode("\r\n",$webdb[guide_word]);
+foreach($detail AS $key=>$value){
+list($name,$url,$blank,$color)=explode("|",$value);
+if(ereg("^\/",$url)){
+	$url="$webdb[www_url]$url";
+}elseif(!ereg("://",$url)){
+	$url="$webdb[www_url]/$url";
+}
+$blank=$blank?"_blank":'';
+$color=$color?"$color":'';
+print <<<EOT
+-->
+                            <a href="$url" target="$blank" style="color:$color;">$name</a>
+                            <!--
+EOT;
+}
+print <<<EOT
+--></td>
+                      </tr>
+                    </table>
+                      <!--头部链接　end-->
+                    </td>
+                  </tr>
+              </table></td>
+              <td width="14" align="left"><img src="images/hzdx/topmenu_right.gif" tppabs="$webdb[www_url]/images/hzdx/topmenu_right.gif" width="5" height="60" /></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="11" colspan="2" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="960" height="11"></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td width="9" height="8" bgcolor="#FF4C22"></td>
+        <td width="951" bgcolor="#FFA13B"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!--
+EOT;
+?>
+-->
