@@ -7,10 +7,10 @@
         <h1><p align="center"><font color="black" face="楷体">自我介绍</font></p></h1>
         <hr size="3px" color ="red">
 		
-        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="实验八个人主页/我的作业.html">我的作业</a>
-	    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href=  "实验八个人主页/我的计划.html">我的计划</a>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href= "实验八个人主页/我的家乡.html">我的家乡</a>
-		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href= "实验八个人主页/我的故事.html">我的故事</a></center>
+        <a href="实验八个人主页/我的作业.html">我的作业</a>
+	  <a href=  "实验八个人主页/我的计划.html">我的计划</a>
+	<a href= "实验八个人主页/我的家乡.html">我的家乡</a>
+	<a href= "实验八个人主页/我的故事.html">我的故事</a></center>
         <embed height="50" width="300" src="李志 - 07.梵高先生.MP3" />
 		</br>
 		</br>
