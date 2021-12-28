@@ -4,7 +4,7 @@
      许文强的个人主页 
   </head>
      <body background= "实验八个人主页/R-C.png" >
-        <h1><p align="center"><font color="black" face="楷体">自我介绍</font></p></h1>
+        <h1><p align="center"><font color="black" face="楷体">自我介绍{木有什么好讲}</font></p></h1>
         <hr size="3px" color ="red">
 		<center>
         <a href="实验八个人主页/我的作业.html">我的作业</a>
