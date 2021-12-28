@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/jinxiangxian/jinxiangxian.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jinxiangxian/jinxiangxian.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<html>
+  <head>
+     <title>许文强的个人主页</title>  
+  </head>
+     <body background= "实验八个人主页/R-C.png" >
+        <h1><p align="center"><font color="black" face="楷体">自我介绍</font></p></h1>
+        <hr size="3px" color ="red">
+		<center>&nbsp&nbsp<a href="许文强.html">首页</a>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="实验八个人主页/我的作业.html">我的作业</a>
+	    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href=  "实验八个人主页/我的计划.html">我的计划</a>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href= "实验八个人主页/我的家乡.html">我的家乡</a>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href= "实验八个人主页/我的故事.html">我的故事</a></center>
+        <embed height="50" width="300" src="李志 - 07.梵高先生.MP3" />
+		</br>
+		</br>
+		</br>
+		</br>
+		<center><font size ="5" face="楷体"  color="white">欢迎来到许文强的个人主页！！！</font></br>
+		<font size ="5" face="楷体"  color="white">祝你每天都有好心情哦</font></br></center>
+	 </body>
+</html>
